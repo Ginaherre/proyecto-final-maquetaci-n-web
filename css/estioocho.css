@@ -1,0 +1,46 @@
+
+h4{
+    color: firebrick;
+    
+}
+
+/* Colores RGB: RED, GREEN, BLUE. EL RGBA (ALFA) ES PARA LA OPACIDAD O TRANSPARENCIA */
+
+h4{
+    color: rgb(rgb(255, 94, 0), green, blue);
+    background-color: rgb(red, rgb(138, 117, 137), blue);
+}
+
+/* COLORES HEXAGECIMALES */
+
+h4 {
+    color: #000000;
+    background-color: #ffffff;
+
+}
+
+/* COLORES HLS: angulo, saturación, brillo */
+
+h4{
+   color: hsl(0, 100%, 50%);
+   background-color: hsl(223, 84%, 57%);
+}
+
+/* TODO EL FONDO DE UN COLOR *//* PONER IMAGEN DETRÁS DE UN TEXTOm background-attachment: fixed;
+}fija la imagen */
+
+/* body{
+    background-color: rgb(230, 193, 181);
+    background-image:url(../assets/imagen.png);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+
+/* SE CREÓ UN SHORTHAND PARA QUE LO QUE ARRIBA QUEDE MÁS CONCRETO */
+ 
+body{
+    background: #dfb4b4 url(..//assets/imagen.png) no-repeat fixed; 
+    background-size: cover;
+ }

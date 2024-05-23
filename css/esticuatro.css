@@ -1,0 +1,60 @@
+div {
+    width: 500px ;
+    height:auto ;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+   }
+
+/* el ultimo 5px gener un desenfoque */
+   p{
+    text-indent: 50px;
+    letter-spacing:normal;   
+    line-height: 1.5; 
+    word-spacing: 3px;
+   }
+
+
+   .serif {
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+   .sans-serif{
+    font-family: sans-serif;
+   }
+
+   .monospace{
+    font-family: monospace;
+   }
+
+   .cursive{
+    font-family: 'Lucida handwriting';
+   }
+
+   .fantasy{
+    font-family: tahoma;
+   }
+
+
+   /* convierte todos los H5 en cursiva */
+
+   .style {
+    font-style: italic;
+   }
+
+   /* define el grosos de las letras, en este caso de todo H3 */
+
+   .weight {
+    font-weight: bolder;
+   }
+
+   /* cambia el tamaño, pone todo en mayuscula, sin embargo la primera es más grande */
+
+   .variant {
+    font-variant: small-caps;
+   }
+
+
+   h7{
+    font-style: italic small-caps 3vw Arial, sans-serif;
+   }

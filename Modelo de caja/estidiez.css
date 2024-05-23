@@ -1,0 +1,41 @@
+
+/* El div no se selecciona con punto (.) margin-left: 20px;*/
+
+div,span{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.caja{
+color:aliceblue;
+width: 300px;
+height: 150px;
+background-color: chartreuse;
+margin:5px;
+padding:5px;
+/* padding-top: 10px;
+padding-right: 10px;
+padding-left: 20px; */
+
+/* Funciona con el sentido de las manecillas del reloj, 100 para arriba, 0 para la derecha, 0 para abajo, 
+100 para la izquierda */
+/* margin-bottom: 10px; */
+/* margin-right: 30px; */
+}
+
+
+.cajita{
+    color:aliceblue;
+width: 300px;
+height: 150px;
+background-color:coral;
+margin:5px;
+padding:5px;
+/* padding-bottom: 10px;
+padding-right: 10px;
+padding-left: 20px; */
+/* margin-top: 10px; */
+/* margin-right: 30px; */
+/* margin-bottom: 30px; */
+
+}

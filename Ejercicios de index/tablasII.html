@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- GITHUB es para subir código y hacer trabajo colaborativo, entrar a la cuenta de Digital House y luego 
+buscar en el repositorio "estilos-curso de maquetación web" luego click en "tablas.txt"-->
+    
+<title>Proyecto HTML de Digital House</title>
+
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        </style>
+</head>
+
+<body>
+<h1>Tablas en HTML</h1>
+
+<!-- <table> Etiqueta de tabla, <tr> es etiqueta de fila (row), <th> es table header (encabezado de tabla)
+    <td> es table data-->
+
+
+<!-- Colspan="#" es para combinar 2 o más columnas, rowspan="2" es para conbinar celdas verticalmente-->
+
+<!-- <colgroup>
+            <col span="1" style="background-color: aquamarine;"> para dar color a la columna 1 -->
+
+
+    <table>  
+        <colgroup>
+            <col span="1" style="background-color: aquamarine;">
+        </colgroup>
+    <tr>    
+        <th>Alumno</th>
+        <th colspan="2">Nombre y apellido</th>   
+        <th>Notas</th>
+
+    <tr>
+        <th>1</td>
+        <td>Gina</td>
+        <td>Herrera</td>
+        <td>9.0</td>
+    </tr>
+    <tr>
+        <th>2</td>
+        <td>Camilo</td>
+        <td>López</td>
+        <td>2.0</td>
+
+    </tr>
+    <tr>
+        <th>3</td>
+        <td>José</td>
+        <td rowspan="2">Martinez</td>
+        <td>6.0</td>
+
+    </tr>
+    <tr>
+        <th>4</td>
+        <td>Luna</td>
+        <td>10</td>
+
+    </tr>
+</table>
+
+</body>
+</html>

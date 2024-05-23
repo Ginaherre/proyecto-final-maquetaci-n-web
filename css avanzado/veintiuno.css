@@ -1,0 +1,100 @@
+
+.grid-container {
+    display: grid;
+    /* grid-template-columns: auto auto auto auto auto auto; */
+
+    grid-template-areas: 
+    "header header header" 
+    "navbar navbar navbar"
+    "noticias . publicidades"
+    "noticias . publicidades"
+    "noticias . banner"
+    "footer footer footer";
+
+    background-color: aqua;
+    border: 2px groove black;
+    padding: 10px;
+    /*gap: 5px; espacio entre filas y columnas*/
+    /* justify-content: start; /*todos los elementos se van al inicio de la pagina de manera horizontal
+    justify-content: end; /*todos los elementos se van al final de la pagina de manera horizontal
+    justify-content: center; /*todos los elementos se van al centro de la pagina de manera horizontal
+    justify-content:space-around, space-between, space-evenly; */
+    /* height:400px;  */
+    /* align-content: center;
+    justify-content: center; */
+}
+
+
+.grid-item{
+    background-color: lightcoral;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* .item1{
+    grid-column: 1/3; /*de 1 al 3
+    grid-row: 1/3;
+} */
+
+
+/* .item1 {grid-area: 1 / 1 / 1 / 3;} 
+.item7 {grid-area: 2 / 2 / 2 / 4}
+.item13 {grid-area: 3 / 3 / 3 / 5;} para poner más espacio*/
+
+
+.item1{
+    grid-area: header;
+}
+
+.item2{
+    grid-area: navbar;
+}
+
+.item3{
+    grid-area: noticias;
+}
+
+.item4{
+    grid-area: publicidades;
+}
+
+.item5{
+    grid-area: banner;
+}
+
+.item6{
+    grid-area: footer;
+}
+
+
+/* MEDIA QUERIES: PARA HACER QUE LA PAGINA SEA RESPONSIVA Y MODIDIQUE SU TAMAÑO */
+
+/* Esto hace que la pantalla se ajuste a lo ancho, una vez que llega a 992 */
+@media screen and (max-width: 992px){
+    .grid-container {
+        grid-template-areas: 
+        "header header header" 
+        "navbar navbar navbar"
+        "noticias noticias publicidades"
+        "noticias noticias publicidades"    
+        "noticias noticias banner"
+        "footer footer footer";
+    }
+}
+
+/* Esto hace que los elementos se organizen uno tras otro al reducir el tamaño de pantalla */
+@media screen and (max-width: 600px){
+    .grid-container {
+        grid-template-areas: 
+        "header" 
+        "navbar"
+        "noticias"
+        "publicidades"    
+        "banner"
+        "footer";
+        gap: 2px;
+    }
+
+}

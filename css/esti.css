@@ -1,0 +1,81 @@
+/* poner 255 en dónde van los numeros, luego click en el cuadro y seleccionar el color deseado */
+
+h2 {
+    color:rgb(106, 44, 165)
+}
+
+/* Colores hexageximales con 6f */
+h3{
+    color: #ffffff;
+}
+
+/* Para modificar los aspectos de color, color:hsl(hue, saturation, lightness) */
+h4 {
+    color:hsl(118, 63%, 36%);
+}
+
+/* Los siguientes dos ponen color de fondo  y de letra de H5*/
+
+div h5 {
+    width: 500px;
+    height: 30%;
+}
+
+h5 {
+    color:hsl(0, 0%, 0%);
+    background-color: blueviolet;
+}
+
+/* TEXTALING para posicionar el texto, le puse una P al div para que no se confunda con el anterior div, 
+este solo modificara a la p del body */ 
+
+
+div p{
+    width: 500px ;
+    height: 50px; ;
+    border: 2px solid black;
+    padding: 10px;
+    
+
+}
+
+p {
+    text-align: center;
+}
+
+/* TEXT DECORATION */
+
+div {
+    width: 150px ;
+    height:70px ;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+   }
+
+/* Notese que toda la linea de codigo se puede simplificar solo con: text-decoration: overline red 5px; */
+   .overline {
+    text-decoration: overline red 5px;
+    /* text-decoration-line: overline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 10px; */
+    }
+
+
+    .line-through {
+        text-decoration-line: line-through;
+        text-decoration-color: blueviolet;
+        text-decoration-style: wavy
+    }
+
+
+    .underline {
+       text-decoration-line: underline; 
+       text-decoration-color: rgb(226, 43, 144);
+       text-decoration-style: dotted;
+    }
+
+    .mix {
+        text-decoration-line: underline overline;
+        text-decoration-color: #8f4c00
+    }

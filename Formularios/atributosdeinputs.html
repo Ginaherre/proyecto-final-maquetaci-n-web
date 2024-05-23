@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto HTML de Digital House</title>
+</head>
+<body>
+
+<h1>Formularios</h1>
+
+<!-- Lo que ponga en value saldrá por defecto, pero puede ser modificable -->
+
+<form method="get">
+<label for="name">Escribe tu nombre</label>
+<input type="text" name="name" id="name" value="Gina">
+
+<br>
+<br>
+
+<!-- El atriuto readonly es para que lo que se ponga en el value no sea modificable -->
+    <label for="name">Escribe tu nombre</label>
+    <input type="text" name="name" id="name" value="Gina" readonly>
+    <input type="submit" value="Enviar">
+
+<br>
+<br>
+
+<!-- El atributo value no es modificable y aparece en gris -->
+
+<label for="name">Escribe tu nombre</label>
+<input type="text" name="name" id="name" value="Gina" disabled>
+<input type="submit" value="Enviar">
+
+<br>
+<br>
+
+<!-- Definen en # de caracteres en letras admitidos -->
+
+<label for="name">Escribe tu nombre</label>
+<input type="text" name="name" id="name" minlength="2" maxlength="5">
+<input type="submit" value="Enviar">
+
+<br>
+<br>
+<!--Definen en # de caracteres en numeros admitidos-->
+<label for="number">Selecciona un número del 1 al 5</label>
+<input type="number" name="number" id="number" min="3" max="5">
+<input type="submit" value="Enviar">
+
+<br>
+<br>
+
+<!-- Primero el año, luego el mes y luego el día -->
+<label for="date">Selecciona una fecha entre 1991 y la fecha actual</label>
+<input type="date" name="date" id="date" min="1991-01-01" max="2024-05-03">
+<input type="submit" value="Enviar">
+
+<br>
+<br>
+<!-- es una barra -->
+<label for="range">Selecciona un rango entre 1 y 5</label>
+<input type="range" name="range" id="range" min="1" max="5">
+<input type="submit" value="Enviar">
+
+<br>
+<br>
+<!-- apara que pueda seleccionar varios archivos y subirlos -->
+<label for="file">Selecciona varios archivos</label>
+<input type="file" name="file" id="file" multiple>
+<input type="submit" value="Enviar">
+
+<br>
+<br>
+<!-- Para escribir caracteres especificos y limitados, en este caso deben ser
+letras mayuculas de A a la Z y solo se podrán escribir 3 -->
+<label for="code">Escribe el código de tu país</label>
+<input type="code" name="code" id="code" pattern="[A-Z]{3}">
+<input type="submit" value="Enviar">
+
+<br>
+<br>
+
+<!-- El placeholder sirve para que en el espacio que la persona debe usar para escribir
+aparezca de fondo y sombreado la instrucción -->
+<input type="text" name="name" id="name" placeholder="Escribe tu nombre">
+
+<br>
+<br>
+
+<!-- Required hace que algo sea obligatorio de ingresar, en el caso de ´género" no lo dejo obligatorio si 
+no lo necesito. Autofocus hace que el cursor se posicione en la opción más importante primero. 
+El autocomplete="off" hace que la memoria no muestre posibles opciones y el usuario deba digitarlas -->
+
+<label for="code">Escribe tu nombre</label>
+<input type="text" name="name" id="name" placeholder="Escribe tu nombre" required autocomplete="off">
+<br>
+<label for="code">Escribe tu edad</label>
+<input type="text" name="age" id="age" placeholder="Escribe tu edad" required>
+<br>
+<label for="code">Escribe tu género</label>
+<input type="text" name="genre" id="genre" placeholder="Escribe tu género" autofocus>
+<input type="submit" value="Enviar">
+
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+
+ul.desordenada {
+list-style-type: circle ;
+}
+
+ol.ordenada {
+list-style-type: decimal;
+
+}
+
+ul.otra {
+list-style-image: url(../audioyvideo/imagengato.png);
+list-style-position: outside;
+}
+
+
+ul.unamas{
+    background: rgb(162, 131, 190);
+    padding: 10px;
+    margin: 50px;
+}

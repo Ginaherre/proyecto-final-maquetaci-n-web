@@ -1,0 +1,110 @@
+
+/*ANCHO Y ALTO*/
+
+
+.contenedor1{
+background-color: yellow;
+width:100px;
+height: 100px;
+}
+
+.contenedor2{
+background-color: blue;
+width:100px;
+height: 100px;
+}
+
+.contenedor3{
+background-color: red;
+width:100px;
+height: 100px;
+}
+
+
+/* BORDES */
+
+.solid{
+    width:200px;
+    height: 50px;
+    border-style:solid;
+    border-color: blueviolet;
+    }
+    
+
+p{
+    text-align: center;
+}
+
+.dotted{
+    width:200px;
+    height: 50px;
+    border-style:dotted;
+    border-color:aqua;
+    }
+
+
+.dashed{
+    width:200px;
+    height: 50px;
+    border-style:dashed;
+    border-color:chartreuse;
+    }
+  
+.double{
+    width:200px;
+    height: 50px;
+    border-style:double;
+    }
+
+.groove{
+    width:200px;
+    height: 50px;
+    border-style:groove;
+    }
+
+
+.ridge{
+    width:200px;
+    height: 50px;
+    border-style:ridge;
+    border: width 10px;
+    border-color: crimson;
+    }
+
+
+.inset{
+    width:200px;
+    height: 50px;
+    border-style:inset;
+    border: width 10px;
+    }
+
+
+.outset{
+    width:200px;
+    height: 50px;
+    border-style:outset;
+    border: width 10px;
+    }
+
+
+.none{
+    width:200px;
+    height: 50px;
+    border-style:none;
+    }
+
+    /* Se puede hacer un shorthand asi: border: 5px solid yellowgreen;*/
+
+.hidden{
+    width:200px;
+    height: 50px;
+    border: 5px solid yellowgreen;
+    }
+
+
+.mix{
+    width:200px;
+    height: 50px;
+    border-style:inset outset dotted;
+    }

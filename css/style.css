@@ -1,0 +1,44 @@
+
+
+/* Esto modificará a todos los H1 que no tengan un id particular */
+h1{
+    color:blueviolet;
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Esto modificará unicamente al H1 que tenga el id "título principal" */
+
+#titulo-principal {
+    color:brown
+}
+
+
+/* Esta es la línea para un selector de clase que modificara lo que tenga la id de class */
+
+.rojo {
+    color:red
+}
+
+.fondo-verde {
+    background-color: greenyellow;
+}
+
+/* Esto hace que todo lo que tenga el id class rojo sea rojo, pero solo el parrafo (p) estará centrado */
+
+p.rojo {
+    text-align: center;
+}
+
+
+/* h3,h4 unienod los selectores con una , tendrán las mismas caracteristicas */
+h3,h4{
+    color:blue
+}
+
+/* El (*) es el selctor universal, si se usa todo el documento tendrá esa cualidad, 
+en este caso todo el domumento tendrá el estilo de letra fantasy */
+
+* {
+    font-family: fantasy;
+}

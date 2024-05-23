@@ -1,0 +1,67 @@
+
+
+/* selector:speudoclase{
+    propiedad:valor;
+} */
+
+/* TODOS LOS SIGUIENTES AFECTAN A "A" OSEA, AL LINK DE HTML */
+
+a:link{
+    color:chocolate;
+    }
+
+a:visited{
+    color:rgb(116, 29, 111)
+}
+
+/* hover es cuando el cursor esta encima, se pone e ese color */
+a:hover{
+background-color: cyan;
+}
+
+/* Active pone el color del texto  justo cuando doy click */
+a:active{
+    color:blue;
+}
+
+
+/* Este es del segundo link de HTML */
+
+a.especial:hover{
+background-color: pink;
+color:white;
+}
+
+button:hover{
+background-color: chartreuse;
+color:crimson
+}
+
+
+/* FIRST CHILD si en vez de p fuera b el primer hjo sería lo que está en bold, pues */
+/* son los primeros hijos del parrafo */
+
+p:first-child{
+    color:blue;
+
+}
+
+/* FOCUS pone el fondo de una casilla de texto el color seleccionado*/
+
+.input:focus{
+    background-color: darkgoldenrod;
+}
+
+.requerido:required{
+    background-color: forestgreen;
+    color:red;
+}
+
+.invalido:required{
+    border: 3px solid red;
+}
+
+.valido:required{
+    border: 3px solid green;
+}
+

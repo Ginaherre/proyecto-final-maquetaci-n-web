@@ -1,0 +1,62 @@
+/* selector[atributo]{
+    propiedas:valor;
+} */
+
+
+/* Los que tienen target en HTML serán afectados en el CSS */
+
+a[target]{
+    background-color: aqua;
+    color: black;
+}
+
+a[target="_self"]{
+    background-color:blueviolet;
+    color: white;
+}
+
+/* Todas las class que en el HTML incluyen "css" serán afectadas */
+
+[class~="css"] {
+    background-color: yellow;
+}
+
+
+/* Para el formulario solo afectara a los type="text" */
+
+input[type="text"]{
+    background-color: grey;
+}
+
+input[type="text"]:hover{
+    background-color: rgb(208, 243, 121);
+}
+
+input[type="number"]{
+    background-color: deeppink;
+}
+
+input[type="mail"]{
+    background-color: coral;
+}
+
+input[type="date"]{
+    background-color:darkgoldenrod;
+}
+
+/* ______ */
+
+input[type="number"]:hover{
+    background-color: gray;
+    opacity:0.8;
+}
+
+input[type="mail"]:hover{
+    background-color:gray;
+    opacity:0.8;
+}
+
+input[type="date"]:hover{
+    background-color:gray;
+    opacity:0.8;
+}

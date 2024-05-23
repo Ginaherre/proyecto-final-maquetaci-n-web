@@ -1,0 +1,16 @@
+div {
+    width: 500px ;
+    height:auto ;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+   }
+
+/* el ultimo 5px gener un desenfoque */
+   p{
+    text-indent: 50px;
+    letter-spacing:normal;   
+    line-height: 1.5; 
+    word-spacing: 3px;
+    text-shadow: 5px 5px 5px blue, 3px 3px 3px greenyellow;
+   }

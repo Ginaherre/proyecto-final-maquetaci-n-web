@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto HTML de Digital House</title>
+</head>
+<body>
+
+    <!-- en la carpeta assets se guardan los audios y videos -->
+    <!-- ./ o ../ para buscar internamente los archivos -->
+
+<h1>Archivos multimedia</h1>
+
+<!-- aparecer controles -->
+<h4>Videos:</h4>
+<video src="../assets/video.mp4" controls></video>
+<br>
+
+<!-- autoplay tambien muteado -->
+<video src="../assets/video.mp4" autoplay muted></video>
+
+
+<!-- Otra forma de poner videos con diferentes tipos de formatos -->
+<br>
+<video controls>
+   <source src="../assets/video.mp4" type="video/mp4">
+   <source src="../assets/video.mp4" type="video/mpg">
+</video>
+
+<!-- AUDIOS, se pueden poner los atriutos de controls, autoplay, muted -->
+<h4>Audios:</h4>
+<audio src="../assets/audio.mp3" controls></audio>
+
+<br>
+<audio controls>
+    <source src="../assets/audio.wav" type="audio/wav">
+    Este formato de audio no es soportado por el navegador
+</audio>
+
+</body>
+</html>

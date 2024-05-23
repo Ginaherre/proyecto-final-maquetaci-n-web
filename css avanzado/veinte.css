@@ -1,0 +1,39 @@
+
+/* ESTE ES EL PADRE */
+
+/* .flex-container{
+    display: flex; de esta forma hacemos que se comporte como caja flexible
+    flex-wrap: wrap; significa qu no esta wrapiado o contenido no empaquetado, si pusieramoa wrap en el navegador sería
+    flexible, pero al estar nowrap, en el navegador no se mueve
+    background-color: aqua;
+    flex-direction: row; se puede poner column, row, row-reverse etc)
+    flex-flow: row nowrap;  mezcla deflex-wrap: wrap y ex-direction: row;
+    justify-content:space-around; flex-end, 
+    justify-content: center;
+    align-items: center; para que este funcione debe estar nowrap
+    height: 500px;
+}  */
+
+.flex-container{
+    display: flex; 
+    background-color: aqua;
+    height: 500px;
+}
+
+
+/* Align-items solo funciona si es nowrap, si se pone wrap la pagina es responsiva pero pierde las 
+características del align. */
+
+
+
+/* ESTOS SON LOS HIJOS (DIVS 1 - 9) */
+
+.flex-container > div { /*se escibe así para que los hijo, osea los divs tengan esas característica*/
+    background-color:darksalmon ;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    margin: 10px;
+}

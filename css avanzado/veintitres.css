@@ -1,0 +1,71 @@
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 2px;
+}
+
+.curva1 {
+    animation: prueba 5s linear 2s infinite alternate;
+}
+
+.curva2 {
+    animation: prueba 5s ease 2s infinite alternate;
+}
+
+.curva3 {
+    animation: prueba 5s ease-in 2s infinite alternate;
+}
+
+.curva4 {
+    animation: prueba 5s ease-out 2s infinite alternate;
+}
+
+.curva5 {
+    animation: prueba 5s ease-in-out 2s infinite alternate;
+}
+
+    /* animation-name: prueba; /*yo le pongo el nombre
+    animation-duration: 5s; 3 segundos
+    animation-delay: 2s; solo al comienzo
+    animation-iteration-count: infinite; para que se repita el ciclo 3 veces */
+
+
+@keyframes prueba {
+    from {
+      width: 100px;
+    }
+    to {
+       width: 200px; 
+    }
+}
+
+
+/* @keyframes prueba {
+    0% {
+        background-color: yellow;
+        width: 100px;
+        height: 50px;
+    }
+    25% {
+        background-color: blue;
+        width: 50px;
+        height: 100px;
+    }
+    50% {
+        background-color: rgb(122, 25, 70);
+        width: 100px;
+        height: 50px;
+    }
+    75% {
+        background-color: blue;
+        width: 50px;
+        height: 100px;
+    }
+    100% {
+        background-color:yellow;
+        width: 100px;
+        height: 50px;
+    }
+} */

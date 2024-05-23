@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto HTML de Digital House</title>
+    <link rel="stylesheet" href="../css avanzado/catorce.css">
+</head>
+
+<body>
+
+<h1>Combinadores de selección</h1>
+
+<!-- <h4>Selector descendiente</h4> -->
+
+<h4>Selector descendiente</h4>
+
+<p>Este es el primer parrafo fuera del div </p>
+
+<!-- Los P dentro del Div son sus descendientes -->
+
+<div class="descen">
+    <p>Esto es un párrafo dentro de un div</p>
+    <p>Esto es otro párrafo dentro de un div</p>
+    <span><p>Este es un nieto del div</p></span>
+</div>
+
+<p>Este es el segundo parrafo fuera del div </p>
+<p>Este es el tercer parrafo fuera del div </p>
+
+<br>
+<br>
+
+<!-- <h4>Selector de hijo se llama con el símbolo MAYOR (>) </h4> SOLO MARCA LAS P DENTRO DEL DIV, 
+NO LOS DESCENDIENTES -->
+
+<h4>Selector de hijo (>) </h4>
+
+<div class="hijo">
+    <p>Esto es un párrafo dentro de un div</p>
+    <p>Esto es otro párrafo dentro de un div</p>
+    <span><p>Este es un nieto del div</p></span>
+</div>
+
+<p>Este es el segundo parrafo fuera del div </p>
+<p>Este es el tercer parrafo fuera del div </p>
+
+<br>
+<br>
+
+<!-- Selector de hermanos adyacentes (+) que solo marca el pirmer hermano fuera del DIV
+SOLO TIENE EN CUENTA A LOS HERMANOS DEBAJO DEL DIV-->
+
+<h4>Selector de hermanos adyacentes (+) </h4>
+
+<p>Esto es un parrafo fuera del div</p>
+
+<div class="hermanos">
+    <p>Esto es un párrafo dentro de un div</p>
+    <p>Esto es otro párrafo dentro de un div</p>
+    <span><p>Este es un nieto del div</p></span>
+</div>
+
+<p>Este es el Primer hermano fuera del PRIMER div </p>    
+<p>Este un parrafo fuera del div </p>
+
+<div class="hermanos">
+    <p>Esto es un párrafo dentro de un div</p>
+    <p>Esto es otro párrafo dentro de un div</p>
+    <span><p>Este es un nieto del div</p></span>
+</div>
+
+<p>Este es el primer hermano fuera del SEGUNDO div </p>
+<p>Este es un parrafo fuera del div </p>
+
+<br>
+<br>
+
+<!-- <h4>Selector general de hermanos (~)  con alt + 126</h4> ESTE MARCA A TODOS LOS HERMANOS FUERA DEL DIV-->
+
+<h4>Selector general de hermanos (~) </h4>
+
+<p>Esto es un parrafo fuera del div</p>
+
+<div class="general">
+    <p>Esto es un párrafo dentro de un div</p>
+    <p>Esto es otro párrafo dentro de un div</p>
+    <span><p>Este es un nieto del div</p></span>
+</div>
+
+<p>Este es el PRIMER HERMANO fuera del PRIMER div </p>    
+<p>Este es el SEGUNDO HERMANO fuera del PRIMER div </p>
+
+<div class="general">
+    <p>Esto es un párrafo dentro de un div</p>
+    <p>Esto es otro párrafo dentro de un div</p>
+    <span><p>Este es un nieto del div</p></span>
+</div>
+
+<p>Este es el PRIMER HERMANO fuera del SEGUNDO div </p>
+<p>Este es un SEGUNDO HERMANO fuera del SEGUNDO div </p>
+
+</body>
+
+</html>

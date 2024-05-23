@@ -1,0 +1,18 @@
+/*  Se escrive div separado de P, que es su descendiente en HTML, el nieto (span) no se pone pues será afectado
+por su padre P */
+
+.descen p {
+    background-color: darkkhaki;
+}
+
+.hijo>p {
+    background-color: darkolivegreen;
+}
+
+.hermanos+p{
+    background-color: darkturquoise;
+}
+
+.general~p{
+    background-color: deeppink;
+}

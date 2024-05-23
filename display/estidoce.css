@@ -1,0 +1,111 @@
+
+/* display: flex; pone los divs uno al lado del otro, en cambio display: grid pone los grid en linea vertical */
+
+.container {
+    background-color: black;
+    display: flex;      
+}
+
+.div-rojo{
+width: 100px;
+height: 100px;
+display: block;
+background-color: red;
+border: 1px solid black;
+padding: 15px;
+margin: 15px;
+}
+
+.div-verde{
+width: 100px;
+height: 100px;
+display: block;
+background-color: green;
+border: 1px solid black;
+padding: 15px;
+margin: 15px;
+}
+
+.div-azul{
+width: 100px;
+height: 100px;
+display: block;
+background-color: blue;
+border: 1px solid black;
+padding: 15px;
+margin: 15px;
+}
+
+/* MAX WIDTH ES FLEXIBLE, SE ACOPLA A LA PAGINA */
+.max{
+margin: auto;
+border: 2px solid black;
+background-color: azure;
+max-width: 500px;   
+}
+
+
+/* WIDTH SE AJUSTA ESTRICTAMENTE A EL ANCHO DE 500 */
+.width {
+margin: auto;
+border: 2px solid black;
+background-color: azure;
+width: 500px;
+}
+
+
+/* display: none oculta el titulo y quita el espacio que ocupaba, visibility: hidden oculta
+el titulo pero respeta el espacio que ocupaba */
+
+.hidden{
+display: none;  
+/* visibility: hidden; */
+}
+
+
+
+/* POSITION___________________________________________________ */
+
+p {
+font-family: 'Times New Roman', Times, serif;
+letter-spacing: 3px;
+word-spacing: 3px;
+}
+
+.position {
+border: 1px solid black;
+padding: 20px;
+margin:20px;
+max-width:80%;
+}
+
+/* En en HTML los parrafos NO se marcan con CLASS, sino con ID y en CSS se llaman con un #*/
+
+#lugar {
+position: sticky;
+top: 0;
+background-color: black;
+color: red;
+}
+
+
+
+/* .span-rojo{
+width: 100px;
+height: 100px;
+display: inline;
+background-color: red;
+border: 1px solid black;
+padding: 15px;
+margin: 15px;
+}
+
+.span-verde{
+width: 100px;
+height: 100px;
+display: inline;
+background-color: green;
+border: 1px solid black;
+padding: 15px;
+margin: 15px;
+} */

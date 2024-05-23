@@ -1,0 +1,46 @@
+
+/* Es factorial, 1 es 100%, 0 es nada y 0.5 es 50% */
+
+img {
+    opacity: 1;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+
+/* En rgba en el alpha se pone la opacidad de 0 a 1  */
+.background {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(184, 127, 127);
+}
+
+
+/* Texto con imagen de fondo y opacidad */
+
+div.container {
+    background: url(../audioyvideo/gatito.jpg);
+    background-size: cover;
+    width: 50%;
+    border: 2px groove black;
+    margin: auto;
+}
+
+div.caja{
+    margin: 30px;
+    background-color: black;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+
+div.caja:hover{
+    background-color: blueviolet;
+}
+
+p{
+    margin: 10px;
+    color: white;
+    text-align: center;
+}

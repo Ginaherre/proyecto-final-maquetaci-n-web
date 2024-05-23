@@ -1,0 +1,36 @@
+/* selector::speudoelemento{
+    propiedad: valor;
+     */
+
+     .uno::first-line {
+        color:blue;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     }
+
+     .dos::first-letter {
+        Color:red;
+        font-size: 50px;
+     }
+
+     .tres::first-letter {
+        color:darkgreen;
+        font-size: 50px;
+    }
+
+
+    .cuatro::before{
+    content: url(../audioyvideo/imagengato.png);
+    }
+
+    li::marker {
+        color: red;
+        font-size: larger;
+
+    }
+
+/* Poner unicamente los :: sin nada, hace que todo el doc se vea afectado */
+
+    ::selection{
+        background-color: aqua;
+        color:blueviolet;
+    }

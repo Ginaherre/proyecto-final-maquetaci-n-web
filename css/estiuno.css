@@ -1,0 +1,29 @@
+
+
+div {
+    width: 150px ;
+    height:70px ;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+   }
+
+/* Todo en mayuscula */
+   .uppercase{
+    text-transform: uppercase;
+   }
+
+   /* Tooo en minuscula */
+   .lowercase{
+    text-transform: lowercase;
+   }
+   
+   /* Todo con mayúscula inicial */
+   .capitalize{
+    text-transform: capitalize;
+
+   }
+   .none{
+    text-transform: none;
+
+   }
